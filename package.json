@@ -1,0 +1,39 @@
+{
+  "name": "main_host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "serve": "serve public",
+    "dev": "npm-run-all --parallel watch serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaozhai/main_host.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liaozhai/main_host/issues"
+  },
+  "homepage": "https://github.com/liaozhai/main_host#readme",
+  "devDependencies": {
+    "@greenatom/epcs-image-my-orders": "^0.0.9",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "core-js": "^3.23.3",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.75.7",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "serve": "^13.0.2",
+    "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "@ace5040/demo": "^1.0.10"
+  }
+}
